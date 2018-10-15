@@ -260,5 +260,5 @@ paket-files/
 __pycache__/
 *.pyc
 
-#private keys
+# Private Keys
 bot3/ayarlar.json
