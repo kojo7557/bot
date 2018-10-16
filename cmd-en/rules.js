@@ -10,26 +10,27 @@ exports.run = function(client, message) {
         icon_url: client.user.avatarURL
       },
       title: "**Rules**",
-      description: "**In discord or in another activity all rules will count and admins will think you already read them.**",
+      description: "**In this server, you must read the rules and follow them.  Admins assume you read them.**",
       fields: [{
-          name: "You must use the language you are in.",
-          value: "**Religion, rage, language distinction isnt alloweed.**"
+          name: "You must use the language you speak natively.",
+          value: "**Religion, race, and language discrimination isn't allowed.**"
         },
         {
-          name: "Spam isnt alloweed.",
-          value: "**Special rank for special people role is private for friends.**"
+          name: "Spam isn't alloweed.",
+          value: "**Only people who are friends get certain roles.**"
         },
         {
-          name: "Advertising isnt alloweed.",
-          value: "**Swearing isnt alloweed.**"
+          name: "Advertising isn't allowed.",
+          value: "**Swearing isn't allowed in excessive amounts.**"
         },
         {
-          name: "Being rude to peoples isnt alloweed.",
-          value: "**Politics isnt alloweed.**"
+          name: "Being rude to peoples isn't alloweed.",
+          value: "**Please do not discuss politics in this server.**"
         },
         {
-          name: "Being passive may kick you from server.",
-          value: "**Click reaction if you aggree these rules.**"
+          name: "If you remain inactive and offline for extended periods of time, you will be kicked from the server
+.",
+          value: "**Click your flag if you agree with these rules.**"
         },
       ],
       timestamp: new Date(),
